@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #61a0a8;
+}
+
+input[type="submit"] {
+    background-color: #61a0a8;
+    color: antiquewhite;
+    width: 107%;
+}
+
+input[type="submit"]:hover {
+    background-color: beige;
+    color: black;
+}
+
+textarea {
+    height: 150px;
+}
